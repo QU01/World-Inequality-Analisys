@@ -49,6 +49,8 @@ dataset <- dataset[complete.cases(dataset$country),]
 
 save(dataset, file = "inequality.Rdata")
 
+write.csv(dataset, file = "inequality.csv")
+
 
 
 
